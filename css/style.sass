@@ -1,0 +1,156 @@
+$pageWidth: 640px
+$responsiveWidth: 90%
+$primary: #fff
+$secondary: #000
+
+$break-small: 320px
+$break-large: 1200px
+
+$small: "only screen and (max-width : 320px)"
+$medium: "only screen and (min-width : 320px) and (max-width:900px)"
+$large: "only screen and (min-width : 900px)"
+
+$small_font: .9em
+$medium_font: 1em
+$large_font: 1.1em
+$step_up: .1
+
+$h1: 4vmax
+$h2: 3vmax
+$h4: 2vmax
+
+img
+  max-width: 100%
+  margin: auto 0
+  width: 100%
+
+.clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+
+#iphone-two
+  width: 10em
+
+body
+  padding: 0
+  margin: 0
+  font-family: 'Headland One', Georgia, serif
+
+h1
+  font-size: $h1
+  margin-bottom: 10px
+  color: $secondary
+h2
+  margin-top: $h2
+  font-size: 28px
+h4
+  font-size: $h4
+  margin-bottom: 10px
+.why-list
+  margin-top: 0
+  li
+    line-height: 28px
+a
+  cursor: pointer
+ul
+  list-style: none
+
+.nav-container
+  background-color: $secondary
+  width: 100%
+  position: fixed
+  left: 0
+
+.orange
+  color: #ff6d00
+
+
+nav
+  text-align: center
+  width: $pageWidth
+  margin: 0 auto
+  ul
+    padding: 0
+    margin: 0
+  li
+    display: inline-block
+    padding: 2px
+
+    &:after
+      content: ""
+      color: #ff6d00
+      vertical-align: 3px
+    a
+      font-size: $small_font
+      color: $primary
+    a.active
+      color: #FF8100
+
+  li:last-child:after
+    content: ""
+    @media #{$large}
+      content: "@leolaneseltd"
+      right: 0
+      position: absolute
+      top: 0
+
+  @media #{$small}
+    width: auto
+
+  @media #{$medium}
+    width: $responsiveWidth
+    li
+      a
+        font-size: $medium_font + $step_up
+
+  @media #{$large}
+    width: $responsiveWidth
+    li
+      a
+        font-size: $large_font + $step_up
+        padding: 7px
+
+section
+  padding-top: 40px
+  height: 1200px
+  width: 100%
+
+  ul
+    padding: 10px
+
+  .content
+    margin: 0 auto
+    max-width: $pageWidth
+    @media screen and (max-width: $pageWidth)
+      width: $responsiveWidth
+    a
+      color: $secondary
+
+    li
+      font-size: 1em
+
+section:nth-child(2)
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBpZD0nYmx1ZXN0cmlwZScgcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgeD0nMCcgeT0nMCcgd2lkdGg9JzIwJyBoZWlnaHQ9JzIwJyB2aWV3Qm94PScwIDAgNDAgNDAnID4KCQk8cmVjdCB3aWR0aD0nMTEwJScgaGVpZ2h0PScxMTAlJyBmaWxsPScjZmZmZmZmJy8+CgkJCTxwYXRoIGQ9J00xLDFoNDB2NDBoLTQwdi00MCcgZmlsbC1vcGFjaXR5PScwJyBzdHJva2Utd2lkdGg9JzEnIHN0cm9rZS1kYXNoYXJyYXk9JzAsMSwxJyBzdHJva2U9JyNjY2NjY2MnLz4KCQk8L3BhdHRlcm4+IAoJCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCQk8ZmVUdXJidWxlbmNlIHR5cGU9J3R1cmJ1bGVuY2UnIHJlc3VsdD0ndCcgYmFzZUZyZXF1ZW5jeT0nLjIgLjMnIG51bU9jdGF2ZXM9JzUnIHN0aXRjaFRpbGVzPSdzdGl0Y2gnLz4KCQkJPGZlQ29sb3JNYXRyaXggdHlwZT0nc2F0dXJhdGUnIGluPSd0JyB2YWx1ZXM9JzAnLz4KCQk8L2ZpbHRlcj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYmx1ZXN0cmlwZSknLz4KPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsdGVyPSd1cmwoI2Z1enopJyBvcGFjaXR5PScwLjEnLz4KPC9zdmc+Cg==')
+
+section:nth-child(odd)
+  background-color: $secondary
+  color: $primary
+  a
+    color: $primary
+
+.bottom-link
+  margin-top: 80px
+  font-style: italic
+
+.gist-meta
+  display: none
+.file-data
+  font-size: 14px
+
+
+@media #{$small}
+  html
+    background: auto
