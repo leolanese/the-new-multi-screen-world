@@ -2,6 +2,7 @@ $pageWidth: 640px
 $responsiveWidth: 90%
 $primary: #fff
 $secondary: #000
+$orange: #ff6d00
 
 $break-small: 320px
 $break-large: 1200px
@@ -15,15 +16,15 @@ $medium_font: 1em
 $large_font: 1.1em
 $step_up: .1
 
-$h1: 2.3em
-$h2: 1.9em
-$h4: 1.3em
-$h5: 1em
+$h1: 1.9em
+$h2: 1.3em
+$h4: 1em
 
 img
   max-width: 100%
   margin: auto 0
   width: 100%
+  max-height: 30em
 
 .clearfix
   &:after
@@ -47,6 +48,7 @@ h1
 h2
   margin-top: $h2
   font-size: 28px
+  color: $orange
 h4
   font-size: $h4
   margin-bottom: 10px
@@ -66,7 +68,7 @@ ul
   left: 0
 
 .orange
-  color: #ff6d00
+  color: $orange
 
 
 nav
@@ -141,6 +143,10 @@ section:nth-child(odd)
   color: $primary
   a
     color: $primary
+
+section:last-child
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBpZD0nYmx1ZXN0cmlwZScgcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgeD0nMCcgeT0nMCcgd2lkdGg9JzIwJyBoZWlnaHQ9JzIwJyB2aWV3Qm94PScwIDAgNDAgNDAnID4KCQk8cmVjdCB3aWR0aD0nMTEwJScgaGVpZ2h0PScxMTAlJyBmaWxsPScjZmZmZmZmJy8+CgkJCTxwYXRoIGQ9J00xLDFoNDB2NDBoLTQwdi00MCcgZmlsbC1vcGFjaXR5PScwJyBzdHJva2Utd2lkdGg9JzEnIHN0cm9rZS1kYXNoYXJyYXk9JzAsMSwxJyBzdHJva2U9JyNjY2NjY2MnLz4KCQk8L3BhdHRlcm4+IAoJCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCQk8ZmVUdXJidWxlbmNlIHR5cGU9J3R1cmJ1bGVuY2UnIHJlc3VsdD0ndCcgYmFzZUZyZXF1ZW5jeT0nLjIgLjMnIG51bU9jdGF2ZXM9JzUnIHN0aXRjaFRpbGVzPSdzdGl0Y2gnLz4KCQkJPGZlQ29sb3JNYXRyaXggdHlwZT0nc2F0dXJhdGUnIGluPSd0JyB2YWx1ZXM9JzAnLz4KCQk8L2ZpbHRlcj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYmx1ZXN0cmlwZSknLz4KPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsdGVyPSd1cmwoI2Z1enopJyBvcGFjaXR5PScwLjEnLz4KPC9zdmc+Cg==')
+
 
 .bottom-link
   margin-top: 80px
