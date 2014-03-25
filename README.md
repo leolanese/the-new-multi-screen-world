@@ -1,4 +1,4 @@
-# Workshop 2014
+## Workshop 2014
 
 ## Version Alpha (still on work)
 
