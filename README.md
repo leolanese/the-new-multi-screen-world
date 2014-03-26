@@ -14,5 +14,5 @@ Responsive Web Design is just the beginning: A website for today is for tomorrow
 Workshop 2014<br />
 *****Version Alpha (still on work)<br />
 
-# By @LeoLaneseLtd
-# Thanks to @ChrisPolis and all the people create a better code for a better world: The future-friendly way
+By @LeoLaneseLtd
+Thanks to @ChrisPolis and all the people create a better code for a better world: The future-friendly way
