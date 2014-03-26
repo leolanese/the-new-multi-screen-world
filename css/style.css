@@ -65,7 +65,7 @@ nav {
     display: inline-block;
     padding: 2px; }
     nav li:after {
-      content: "";
+      content: "|";
       color: #ff6d00;
       vertical-align: 3px; }
     nav li a {
