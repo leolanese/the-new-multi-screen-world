@@ -1,13 +1,23 @@
 <h1>The new multi-screen world</h1>
 
-<pre>
-What are we going to talk about:
 
-Web trends: Technology will change. Standards will evolve.
-What is the Web? This is not the Web.
-The New opportunities: Cross-platform thinking.
-The Web as a service: Get your content ready to go anywhere because it's going to go everywhere.
-Responsive Web Design is just the beginning: A website for today is for tomorrow's devices.
+<h2>What are we going to talk about:</h2>
+
+<pre>
+-Web trends:
+Technology will change. Standards will evolve.
+
+-What is the Web?
+This is not the Web.
+
+-The New opportunities:
+Cross-platform thinking.
+
+-The Web as a service:
+Get your content ready to go anywhere because it's going to go everywhere.
+
+-Responsive Web Design is just the beginning:
+A website for today is for tomorrow's devices.
 </pre>
 
 <br />
