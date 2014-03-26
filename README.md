@@ -24,5 +24,5 @@ A website for today is for tomorrow's devices.
 Workshop 2014<br />
 *****Version Alpha (still on work)<br />
 
-By @LeoLaneseLtd
-Thanks to @ChrisPolis and all the people create a better code for a better world: The future-friendly way
+By Leo Lanese, @LeoLaneseLtd<br />
+Special thanks to @ChrisPolis and all the people create a better code for a better world: The future-friendly way
