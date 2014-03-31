@@ -14,10 +14,11 @@ This is not the Web.
 Cross-platform thinking.
 
 -The Web as a service:
-Get your content ready to go anywhere because it's going to go everywhere.
+Get your content ready to go anywhere because it's going to go everywhere. (@brad_frost)
 
 -Responsive Web Design is just the beginning:
 A website for today is for tomorrow's devices.
+
 </pre>
 
 <br />
@@ -25,4 +26,4 @@ Workshop 2014<br />
 *****Version Alpha (still on work)<br />
 
 By Leo Lanese, @LeoLaneseLtd<br />
-Special thanks to @ChrisPolis and all the people create a better code for a better world: The future-friendly way
+Special thanks to @brad_frost and @ChrisPolis and all the people create a better code for a better world: The future-friendly way
