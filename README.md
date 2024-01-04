@@ -22,9 +22,6 @@ A website for today is for tomorrow's devices.
 </pre>
 
 <br />
-Workshop 2014<br />
-*****Version Alpha (still on work)<br />
-
 
 ---
 
