@@ -26,27 +26,27 @@ Workshop 2014<br />
 *****Version Alpha (still on work)<br />
 
 
---
+---
 
-## { 'L e o   L a n e s e',
-### 'I  B u i l d   I n s p i r i n g   R e s p o n s i v e   S o l u t i o n s',
-### 'L O N D O N ,  U K' }
-
-
-# My Portfolio<br>
-<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a><br>
-
-# My LAB<br>
-<a href="http://www.rwdlab.com" target="_blank">http://www.rwdlab.com</a><br>
-
-# My Blog:<br>
-<a href="http://www.leolanese.com/blog" target="_blank">www.leolanese.com/blog</a><br>
-
-# Twitter:<br>
-Follow me at:<a href="http://twitter.com/LeoLaneseltd" target="_blank">http://twitter.com/LeoLaneseltd</a><br>
-
-# Questions / Suggestion / Recommendation ?<br>
-<a href="mail:to">angularjs@leolanese.com</a><br>
+<h5> { 'Leo Lanese',<br>
+       'Building Inspiring Responsive Reactive Solutions',<br>
+       'London, UK' }<br>
+</h5>
+<h5>Portfolio
+<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a>
+</h5>
+<h5>Twitter:
+<a href="http://twitter.com/LeoLanese" target="_blank">twitter.com/LeoLanese</a>
+</h5>
+<h5>Questions / Suggestion / Recommendation ?
+<a href="mail:to">developer@leolanese.com</a>
+</h5>
+<h5>DEV.to:
+<a href="http://www.dev.to/leolanese" target="_blank">www.dev.to/leolanese</a>
+</h5>
+<h5>Blog:
+<a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+</h5>
 
 By Leo Lanese, @LeoLaneseLtd<br />
 Special thanks to @brad_frost and @ChrisPolis and all the people create a better code for a better world: The future-friendly way
